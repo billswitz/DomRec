@@ -4,10 +4,10 @@
 FROM debian:latest
 
 LABEL Author="Or Ben Shimon"`
-Corp="BenShimonTechnologiesLLC"`
-Project="DomRec"`
-Version="3"`
-Minor="Alpha 1.0"
+LABEL Corp="BenShimonTechnologiesLLC"`
+LABEL Project="DomRec"`
+LABEL Version="3"`
+LABEL Minor="Alpha 1.0"
 ENV DBCredentials_File = ./DBCredentials.json
 
 
